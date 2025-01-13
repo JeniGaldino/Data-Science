@@ -1,0 +1,53 @@
+E-commerce Database Schema
+
+Este projeto é um modelo experimental de banco de dados para um sistema de e-commerce. Ele foi desenvolvido como parte de um bootcamp para prática e aprendizado em modelagem de dados e uso de SQL.
+
+Descrição do Projeto
+
+O banco de dados foi projetado para atender às principais necessidades de um sistema de e-commerce, incluindo gerenciamento de clientes, produtos, pedidos, pagamentos, fornecedores, estoque, endereços, e informações de contato.
+
+Estrutura do Banco de Dados
+
+O esquema foi implementado com as seguintes tabelas:
+
+Clients: Armazena informações pessoais dos clientes.
+
+CategoryProduct: Define as categorias dos produtos.
+
+Product: Gerencia os detalhes dos produtos.
+
+Orders: Registra os pedidos realizados.
+
+Payment: Monitora os pagamentos e seus status.
+
+Stock: Controla o estoque dos produtos.
+
+Supplier: Registra informações sobre os fornecedores.
+
+Seller: Contém informações sobre os vendedores.
+
+Address: Armazena os endereços relacionados a clientes, vendedores e estoque.
+
+ContactInfo: Armazena informações de contato de clientes, vendedores e fornecedores.
+
+Products_Seller: Relação entre produtos e vendedores.
+
+Product_Order: Relação entre produtos e pedidos.
+
+InStock: Relação entre produtos e estoque.
+
+ProductAvaiability: Gerencia a disponibilidade de produtos pelos fornecedores.
+
+Shipment: Registra informações sobre envio e rastreamento de pedidos.
+
+Persistência de Dados
+
+Os dados foram populados com registros simulados para testes e demonstração das funcionalidades do banco de dados.
+
+Observações
+
+O projeto é experimental e focado em aprendizado. Não foi projetado para uso em produção.
+
+Todos os relacionamentos foram implementados com integridade referencial e ações específicas para deletar ou atualizar registros relacionados.
+
+Sinta-se à vontade para explorar e modificar o esquema para atender às suas necessidades ou ampliar seu conhecimento sobre banco de dados relacional.
