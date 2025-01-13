@@ -1,59 +1,45 @@
-# 🛒 E-COMMERCE DATABASE MODEL
+# Projetos de Modelagem EER
 
-Este repositório contém o modelo EER (Enhanced Entity-Relationship) desenvolvido para um sistema de e-commerce. O objetivo principal do projeto é criar uma estrutura de banco de dados robusta e eficiente para gerenciar as operações de uma plataforma de comércio eletrônico, incluindo pedidos, pagamentos, fornecedores, produtos e clientes.
+Este repositório contém uma coleção de projetos que envolvem a modelagem de diagramas Entidade-Relacionamento Estendido (EER). O objetivo desses projetos é demonstrar o uso de conceitos avançados de modelagem de dados para representar de forma eficiente os requisitos de sistemas complexos. Cada projeto segue o processo de análise e modelagem utilizando o modelo EER, com a aplicação de especializações, generalizações, e uso de tabelas de mapeamento de dados.
 
-## 📚 Sobre o Projeto
-O modelo aborda a complexidade de um sistema de e-commerce, abrangendo:
+## Projetos Contidos
 
-**Gestão de Clientes**: Diferenciação entre Pessoa Física e Pessoa Jurídica.
+### 1. **Projeto de Modelagem - E-Commerce**
+- **Objetivo:** Criar um modelo de banco de dados para um sistema de e-commerce, representando entidades como clientes, produtos, pedidos e pagamentos.
+- **Tecnologias utilizadas:** Diagrama EER, especializações, e agregações.
 
-**Controle de Produtos**: Estoques distribuídos e relação com fornecedores.
+### 2. **Projeto de Modelagem - Oficina**
+- **Objetivo:** Desenvolver um modelo para uma oficina mecânica, incluindo a gestão de clientes, serviços realizados, peças e mecânicos.
+- **Tecnologias utilizadas:** Diagrama EER, especialização e generalização de entidades, uso de tabelas auxiliares de mão de obra e peças.
 
-**Gerenciamento de Pedidos**: Acompanhamento desde a criação até a entrega.
+## Estrutura do Repositório
 
-**Pagamentos**: Registro detalhado de transações realizadas.
+A estrutura deste repositório é organizada da seguinte maneira:
 
-**Relação com Vendedores Terceirizados**: Mapeamento das interações com vendedores externos.
+/Projeto de Modelagem - E-COMMERCE/ └── Modelo_EER.png └── Descrição.md /Projeto de Modelagem - Oficina/ └── Modelo_EER.png └── Descrição.md
 
-## 📐 Estrutura do Modelo
-Componentes Principais
-**Clientes**: Inclui informações de identificação, endereço e métodos de pagamento.
+- Cada pasta contém o diagrama EER representando o modelo do sistema.
+- A pasta de cada projeto também pode conter um arquivo `Descrição.md`, explicando os requisitos e decisões tomadas durante o processo de modelagem.
 
-**Produtos**: Cada produto possui detalhes como SKU, descrição, valor e estoque.
+## Como Usar
 
-**Pedidos**: Relacionados a clientes, produtos adquiridos e status de entrega.
+1. **Clone o repositório:**
 
-**Pagamentos**: Contém o modo de pagamento e o valor correspondente.
+   Para começar a explorar os projetos, faça o clone do repositório:
 
-**Fornecedores**: Associados aos produtos que disponibilizam na plataforma.
+   ```bash
+   git clone https://github.com/JeniGaldino/Data-Science.git
 
-**Estoque**: Gerencia a quantidade de produtos em diferentes locais.
+## Navegue pelos projetos:
 
-## 🛠️ Ferramentas Utilizadas
-Ferramenta de Modelagem: Workbench
+Cada projeto está em uma subpasta separada. Para acessar o diagrama EER e a descrição de cada projeto, entre nas respectivas pastas.
 
-**Linguagem SQL**: Para implementações futuras do esquema em bancos de dados relacionais.
+## Como Contribuir:
 
-**Plataforma**: Windows.
+Se você quiser contribuir com este repositório, siga as etapas abaixo:
 
-## 🚀 Funcionalidades Planejadas
-**Inserção de Dados Simulados**: Criação de dados fictícios para testes de desempenho.
-
-**Implementação em Banco de Dados Relacional**: Migração do modelo para um banco real, como MySQL ou PostgreSQL.
-
-**Criação de Queries**: Consultas para analisar o fluxo de pedidos, status de estoque e pagamentos.
-
-
-## 💡 Aprendizados e Melhorias
-Este foi o primeiro modelo EER desenvolvido como parte de um estudo em modelagem de banco de dados. Algumas melhorias futuras incluem:
-
-**Otimização de relacionamentos para cenários mais complexos.**
-
-**Inclusão de restrições e triggers no banco.**
-
-**Melhor organização das entidades para facilitar escalabilidade.**
-
-
-## 📞 Contato
-Se tiver dúvidas ou sugestões, fique à vontade para entrar em contato!
-
+Faça um fork deste repositório.
+Crie uma branch com a sua feature: git checkout -b feature/nova-feature.
+Adicione e comite suas mudanças: git commit -am 'Adicionando nova feature'.
+Faça um push para a branch: git push origin feature/nova-feature.
+Abra um pull request para revisão.
