@@ -1,69 +1,94 @@
-<h2>Descrição</h2>
-<p>Este é um projeto experimental desenvolvido como parte de um bootcamp. Ele consiste na criação de um banco de dados para um cenário de E-commerce, incluindo tabelas para clientes, produtos, pedidos, pagamentos, estoque, fornecedores, vendedores e mais. Além disso, os dados foram persistidos e queries foram executadas para testar o funcionamento do sistema.</p>
+Projeto de Banco de Dados E-commerce
 
-<h2>Estrutura do Banco de Dados</h2>
-<p>A estrutura do banco de dados é composta pelas seguintes tabelas principais:</p>
+Descrição
 
-<h3>Tabelas Principais</h3>
-<ul>
-    <li><strong>Clients</strong>: Armazena informações dos clientes, como nome e data de nascimento.</li>
-    <li><strong>CategoryProduct</strong>: Categorização dos produtos.</li>
-    <li><strong>Product</strong>: Informações detalhadas dos produtos, incluindo descrição, preço e avaliação.</li>
-    <li><strong>Orders</strong>: Gerenciamento de pedidos com status, descrição e cliente associado.</li>
-    <li><strong>Payment</strong>: Registro de pagamentos, incluindo método, status e valor.</li>
-    <li><strong>Stock</strong>: Controle de estoque por categoria de produto.</li>
-    <li><strong>Supplier</strong>: Dados dos fornecedores, ligados às categorias de produtos.</li>
-    <li><strong>Seller</strong>: Informações dos vendedores, como nome corporativo e fantasia.</li>
-    <li><strong>Address</strong>: Endereços relacionados a clientes, vendedores e estoques.</li>
-    <li><strong>ContactInfo</strong>: Informações de contato (telefone, e-mail, CPF, CNPJ) para clientes, vendedores e fornecedores.</li>
-</ul>
+Este é um projeto experimental desenvolvido como parte de um bootcamp. Ele consiste na criação de um banco de dados para um cenário de E-commerce, incluindo tabelas para clientes, produtos, pedidos, pagamentos, estoque, fornecedores, vendedores e mais. Além disso, os dados foram persistidos e queries foram executadas para testar o funcionamento do sistema.
 
-<h3>Relações Entre Tabelas</h3>
-<p>As tabelas possuem várias relações para garantir a integridade referencial:</p>
-<ul>
-    <li>Produtos e categorias de produtos.</li>
-    <li>Produtos e pedidos.</li>
-    <li>Estoque e categorias de produtos.</li>
-    <li>Vendedores e produtos.</li>
-    <li>Pedidos e pagamentos.</li>
-</ul>
+Estrutura do Banco de Dados
 
-<h2>Funcionalidades Implementadas</h2>
-<ul>
-    <li>Persistência de dados para simular um ambiente real de E-commerce.</li>
-    <li>Execução de queries SQL para testes, incluindo inserções, atualizações e consultas complexas.</li>
-    <li>Uso de <code>foreign keys</code> para garantir integridade referencial entre tabelas.</li>
-    <li>Geração de dados com valores padrão para simplificar a inicialização do banco.</li>
-</ul>
+A estrutura do banco de dados é composta pelas seguintes tabelas principais:
 
-<h2>Objetivo</h2>
-<p>O objetivo deste projeto é aplicar conceitos de modelagem de dados e SQL em um cenário prático, representando os fluxos de um E-commerce real. Este projeto é experimental e serve como uma introdução ao desenvolvimento de bancos de dados relacionais.</p>
+Tabelas Principais
 
-<h2>Avisos</h2>
-<ul>
-    <li>Este projeto é experimental e pode conter simplificações que não seriam aplicáveis em um sistema de produção.</li>
-    <li>Sinta-se à vontade para expandir ou modificar o projeto para atender às suas necessidades.</li>
-</ul>
+Clients: Armazena informações dos clientes, como nome e data de nascimento.
 
-<h2>Como Contribuir</h2>
-<ol>
-    <li>Faça um <strong>fork</strong> deste repositório.</li>
-    <li>Clone o repositório para a sua máquina local.</li>
-    <li>Crie uma nova branch para suas alterações:
-        <pre><code>git checkout -b minha-nova-feature</code></pre>
-    </li>
-    <li>Faça as alterações necessárias.</li>
-    <li>Faça o commit das suas alterações:
-        <pre><code>git commit -m "Descrição das alterações"</code></pre>
-    </li>
-    <li>Faça o push para a branch:
-        <pre><code>git push origin minha-nova-feature</code></pre>
-    </li>
-    <li>Abra um <strong>Pull Request</strong>.</li>
-</ol>
+CategoryProduct: Categorização dos produtos.
 
-<h2>Autor</h2>
-<p>Projeto desenvolvido por <strong>Jenifer Galdino Oliveira</strong>.</p>
+Product: Informações detalhadas dos produtos, incluindo descrição, preço e avaliação.
 
-<hr>
-<p>Este projeto foi criado como parte de um treinamento prático e serve como base para estudos e experimentações no campo de banco de dados.</p>
+Orders: Gerenciamento de pedidos com status, descrição e cliente associado.
+
+Payment: Registro de pagamentos, incluindo método, status e valor.
+
+Stock: Controle de estoque por categoria de produto.
+
+Supplier: Dados dos fornecedores, ligados às categorias de produtos.
+
+Seller: Informações dos vendedores, como nome corporativo e fantasia.
+
+Address: Endereços relacionados a clientes, vendedores e estoques.
+
+ContactInfo: Informações de contato (telefone, e-mail, CPF, CNPJ) para clientes, vendedores e fornecedores.
+
+Relações Entre Tabelas
+
+As tabelas possuem várias relações para garantir a integridade referencial:
+
+Produtos e categorias de produtos.
+
+Produtos e pedidos.
+
+Estoque e categorias de produtos.
+
+Vendedores e produtos.
+
+Pedidos e pagamentos.
+
+Funcionalidades Implementadas
+
+Persistência de dados para simular um ambiente real de E-commerce.
+
+Execução de queries SQL para testes, incluindo inserções, atualizações e consultas complexas.
+
+Uso de foreign keys para garantir integridade referencial entre tabelas.
+
+Geração de dados com valores padrão para simplificar a inicialização do banco.
+
+Objetivo
+
+O objetivo deste projeto é aplicar conceitos de modelagem de dados e SQL em um cenário prático, representando os fluxos de um E-commerce real. Este projeto é experimental e serve como uma introdução ao desenvolvimento de bancos de dados relacionais.
+
+Avisos
+
+Este projeto é experimental e pode conter simplificações que não seriam aplicáveis em um sistema de produção.
+
+Sinta-se à vontade para expandir ou modificar o projeto para atender às suas necessidades.
+
+Como Contribuir
+
+Faça um fork deste repositório.
+
+Clone o repositório para a sua máquina local.
+
+Crie uma nova branch para suas alterações:
+
+git checkout -b minha-nova-feature
+
+Faça as alterações necessárias.
+
+Faça o commit das suas alterações:
+
+git commit -m "Descrição das alterações"
+
+Faça o push para a branch:
+
+git push origin minha-nova-feature
+
+Abra um Pull Request.
+
+Autor
+
+Projeto desenvolvido por Jenifer Galdino Oliveira.
+
+Este projeto foi criado como parte de um treinamento prático e serve como base para estudos e experimentações no campo de banco de dados.
+
